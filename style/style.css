@@ -44,7 +44,7 @@ body {
 }
 
 .main-screen__bg {
-    background-image: url(../images/firstscreen-images/truck-with-container.jpg);
+    background-image: url(../images/truck-with-container.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ body {
     flex: 1 1 auto;
 }
 
-.header__logo{
+.header__logo {
     padding-top: 25px;
 }
 
@@ -400,7 +400,6 @@ section h2 {
 }
 
 .services__block {
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -598,20 +597,21 @@ section h2 {
 }
 
 .form__body::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(240, 235, 235, 0.385);
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.5s ease 0s;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 235, 235, 0.385);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
 }
+
 .form__body._sending::after {
-	opacity: 1;
-	visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .form__body-content {
@@ -675,13 +675,14 @@ section h2 {
 }
 
 .form__input:focus {
-    outline: 1px solid #F73425;;
+    outline: 1px solid #F73425;
+    ;
     box-shadow: 0 12px 28px rgb(140 149 159 / 30%);
 
 }
 
-.form__input._error{
-    box-shadow:0 0 5px #F73425;
+.form__input._error {
+    box-shadow: 0 0 5px #F73425;
     outline: none;
 }
 
@@ -823,7 +824,7 @@ section h2 {
     width: 100%;
 }
 
-.map{
+.map {
     width: 50%;
     height: 400px;
 }
@@ -833,5 +834,5 @@ section h2 {
 }
 
 [class*="copyrights-pane"] {
-	display: none !important;
+    display: none !important;
 }
