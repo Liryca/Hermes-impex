@@ -1,4 +1,4 @@
- @media (max-width: 1024px) {
+ @media screen and  (max-width: 1024px) {
      .header__menu {
          justify-content: end;
      }
@@ -21,6 +21,7 @@
 
      .menu__body._active {
          right: 0;
+        overflow-y: scroll;
      }
 
      .menu__list {
@@ -143,7 +144,7 @@
 
  @media(max-width:690px) {
      .text__title {
-         font-size: 48px;
+         font-size: 38px;
          line-height: 62px;
      }
  }
@@ -267,4 +268,19 @@
      #contact {
          min-height: 100vh;
      }
+ }
+
+
+ /* ............................................... */
+
+
+ @media only screen and (max-height : 768px) {
+    .text__title {
+        font-size: 30px;
+            line-height: 35px;
+        }
+        .text__title-slogan{
+                font-size: 28px;
+                    line-height: 35px;
+        }
  }
