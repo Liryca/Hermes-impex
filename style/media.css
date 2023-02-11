@@ -274,7 +274,7 @@
  /* ............................................... */
 
 
- @media only screen and (max-height : 768px) {
+ @media only screen and (max-height : 450px) {
     .text__title {
         font-size: 30px;
             line-height: 35px;
