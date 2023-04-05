@@ -90,8 +90,8 @@ body {
     font-size: 72px;
     letter-spacing: -0.03em;
     line-height: 1.2;
-    /* transform: translate(-50%, 0px); */
-    opacity: 0;
+    transform: translate(-50%, 0px);
+    opacity: 0; 
     transition: all 0.8s ease 0s;
     transform: translate(-15%, 0px);
 

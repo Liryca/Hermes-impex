@@ -257,7 +257,7 @@
      }
  }
 
- @media(min-height:700px) {
+ /* @media(min-height:700px) {
 
      #main-screen,
      #about,
@@ -268,7 +268,7 @@
      #contact {
          min-height: 100vh;
      }
- }
+ } */
 
 
  /* ............................................... */
