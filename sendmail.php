@@ -15,7 +15,7 @@
 	//Кому отправить
 	$mail->addAddress('tarasavahanna@gmail.com');
 	//Тема письма
-	$mail->Subject = 'Привет! Это "Фрилансер по жизни"';
+	$mail->Subject = '';
 	//Тело письма
 	$body = '<h1>Письмо с сайта Hermes Impex</h1>';
 
